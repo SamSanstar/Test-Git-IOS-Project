@@ -15,6 +15,7 @@
 		E6FA8F421DAE9FA700401D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FA8F401DAE9FA700401D48 /* LaunchScreen.storyboard */; };
 		E6FA8F4D1DAE9FA700401D48 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA8F4C1DAE9FA700401D48 /* Git_TestTests.m */; };
 		E6FA8F581DAE9FA700401D48 /* Git_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA8F571DAE9FA700401D48 /* Git_TestUITests.m */; };
+		E6FA8F671DB28FE400401D48 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA8F661DB28FE400401D48 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E6FA8F531DAE9FA700401D48 /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FA8F571DAE9FA700401D48 /* Git_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestUITests.m; sourceTree = "<group>"; };
 		E6FA8F591DAE9FA700401D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FA8F651DB28FE400401D48 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTest.h; path = ../CCTest.h; sourceTree = "<group>"; };
+		E6FA8F661DB28FE400401D48 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTest.m; path = ../CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				E6FA8F391DAE9FA700401D48 /* ViewController.m */,
 				E6FA8F3B1DAE9FA700401D48 /* Main.storyboard */,
 				E6FA8F3E1DAE9FA700401D48 /* Assets.xcassets */,
+				E6FA8F651DB28FE400401D48 /* CCTest.h */,
+				E6FA8F661DB28FE400401D48 /* CCTest.m */,
 				E6FA8F401DAE9FA700401D48 /* LaunchScreen.storyboard */,
 				E6FA8F431DAE9FA700401D48 /* Info.plist */,
 				E6FA8F321DAE9FA700401D48 /* Supporting Files */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FA8F3A1DAE9FA700401D48 /* ViewController.m in Sources */,
+				E6FA8F671DB28FE400401D48 /* CCTest.m in Sources */,
 				E6FA8F371DAE9FA700401D48 /* AppDelegate.m in Sources */,
 				E6FA8F341DAE9FA700401D48 /* main.m in Sources */,
 			);
